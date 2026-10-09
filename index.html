@@ -1,23 +1,32 @@
 <!doctype html>
-<html lang="nl">
+<html lang="nl-BE">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
 <title>Pure Kapsalon Heverlee</title>
 <meta name="description" content="Pure is een kapsalon in Heverlee (Leuven) voor gelaagde snitten, bronde, meches met toner en hoofdhuidverzorging. Boek online.">
 <meta property="og:title" content="Pure Kapsalon Heverlee">
 <meta property="og:description" content="Gelaagde snitten, bronde, toner en hoofdhuidverzorging aan de Waversebaan in Heverlee.">
-<meta property="og:image" content="img/hero.jpg">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;1,6..96,400;1,6..96,500&family=Hanken+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="nl_BE">
+<meta property="og:url" content="https://kapsalon-pure.vercel.app/">
+<meta property="og:image" content="https://kapsalon-pure.vercel.app/img/hero.webp">
+<meta property="og:image:width" content="1100">
+<meta property="og:image:height" content="734">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="img/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<link rel="preload" href="fonts/bodoni-moda-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/hanken-grotesk-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="style.css">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "HairSalon",
   "name": "Pure",
-  "image": "img/hero.jpg",
+  "image": "https://kapsalon-pure.vercel.app/img/hero.webp",
+  "url": "https://kapsalon-pure.vercel.app/",
   "telephone": "+32 16 20 05 25",
   "email": "purestyle.v@gmail.com",
   "priceRange": "$$$",
@@ -33,7 +42,7 @@
 </script>
 </head>
 <body>
-<a class="skip" href="#werk">Naar de inhoud</a>
+<a class="skip" href="#inhoud">Naar de inhoud</a>
 
 <header class="site-header" id="top">
   <div class="wrap header-inner">
@@ -51,7 +60,7 @@
   </div>
 </header>
 
-<main>
+<main id="inhoud">
   <!-- HERO -->
   <section class="hero wrap">
     <div class="hero-text">
@@ -68,26 +77,26 @@
       </dl>
     </div>
     <div class="hero-visual">
-      <figure class="ph hero-photo" data-file="hero.jpg">
-        <img id="swatch-img" src="img/hero.jpg" alt="Lange golven in een zachte bronde" width="900" height="1125">
+      <figure class="ph hero-photo" data-file="hero.webp">
+        <img id="swatch-img" src="img/hero.webp" width="1100" height="734" alt="Lange golven in een zachte bronde">
       </figure>
       <div class="swatch-ring">
         <span class="ring" aria-hidden="true"></span>
         <div class="swatches" role="radiogroup" aria-label="Kies een kleurstaal">
           <button type="button" class="strand" role="radio" aria-checked="true" aria-label="Soft luxe bronde" style="--c1:#4a3324;--c2:#9b7350;--c3:#d9bb8e"
-            data-img="img/hero.jpg" data-alt="Lange golven in een zachte bronde" data-name="Soft luxe bronde"
+            data-img="img/hero.webp" data-alt="Lange golven in een zachte bronde" data-name="Soft luxe bronde"
             data-text="Niet zomaar blond. Een zachte mix van blond en bruin, afgewerkt met een toner op maat."><span class="hair"></span></button>
           <button type="button" class="strand" role="radio" aria-checked="false" aria-label="Warme toner" style="--c1:#4b3020;--c2:#a86d3a;--c3:#e4b47c"
-            data-img="img/kleur-1.jpg" data-alt="Haar dat van donker naar warm blond verloopt" data-name="Warme toner"
+            data-img="img/kleur-1.webp" data-alt="Haar dat van donker naar warm blond verloopt" data-name="Warme toner"
             data-text="Meches krijgen meer diepte met een warme toner. Dat geeft het haar ook extra glans."><span class="hair"></span></button>
           <button type="button" class="strand" role="radio" aria-checked="false" aria-label="Koele toner" style="--c1:#6a6372;--c2:#b6aec3;--c3:#e9e6ee"
-            data-img="img/kleur-2.jpg" data-alt="Lang haar in een koele, lila tint" data-name="Koele toner"
+            data-img="img/kleur-2.webp" data-alt="Lang haar in een koele, lila tint" data-name="Koele toner"
             data-text="Een koele toner neemt gele en oranje tinten weg. Blond ziet er frisser en zilveriger uit."><span class="hair"></span></button>
           <button type="button" class="strand" role="radio" aria-checked="false" aria-label="Kleur op maat" style="--c1:#3a1a12;--c2:#8c3b22;--c3:#c8693f"
-            data-img="img/kleur-3.jpg" data-alt="Lang haar in een warme kopertint" data-name="Kleur op maat"
+            data-img="img/kleur-3.webp" data-alt="Lang haar in een warme kopertint" data-name="Kleur op maat"
             data-text="Van een subtiele glans tot een volledig nieuwe kleur, afgestemd op je huid en je haar."><span class="hair"></span></button>
           <button type="button" class="strand" role="radio" aria-checked="false" aria-label="Gelaagde snit" style="--c1:#1d1410;--c2:#3e2b20;--c3:#6d4f3a"
-            data-img="img/snit-2.jpg" data-alt="Lang donker haar met beweging" data-name="Gelaagde snit"
+            data-img="img/snit-2.webp" data-alt="Lang donker haar met beweging" data-name="Gelaagde snit"
             data-text="Lagen geven lange lengtes beweging en volume, zonder dat je lengte verliest."><span class="hair"></span></button>
         </div>
       </div>
@@ -109,8 +118,8 @@
       <div class="ba-grid">
         <figure class="ba" data-ba>
           <div class="ba-frame">
-            <div class="ph ba-img" data-file="na-1.jpg"><img src="img/na-1.jpg" alt="Na: volumineus kapsel met pony" loading="lazy"></div>
-            <div class="ph ba-img ba-before" data-file="voor-1.jpg"><img src="img/voor-1.jpg" alt="Voor: lang haar zonder vorm" loading="lazy"></div>
+            <div class="ph ba-img" data-file="na-1.webp"><img src="img/na-1.webp" srcset="img/na-1-600.webp 600w, img/na-1.webp 1100w" sizes="(max-width:760px) 100vw, 45vw" width="1100" height="733" alt="Na: volumineus kapsel met pony" loading="lazy"></div>
+            <div class="ph ba-img ba-before" data-file="voor-1.webp"><img src="img/voor-1.webp" srcset="img/voor-1-600.webp 600w, img/voor-1.webp 1100w" sizes="(max-width:760px) 100vw, 45vw" width="1100" height="733" alt="Voor: lang haar zonder vorm" loading="lazy"></div>
             <span class="ba-tag ba-tag-l">Voor</span><span class="ba-tag ba-tag-r">Na</span>
             <span class="ba-line" aria-hidden="true"></span>
           </div>
@@ -120,8 +129,8 @@
         </figure>
         <figure class="ba" data-ba>
           <div class="ba-frame">
-            <div class="ph ba-img" data-file="na-2.jpg"><img src="img/na-2.jpg" alt="Na: zachte bronde" loading="lazy"></div>
-            <div class="ph ba-img ba-before" data-file="voor-2.jpg"><img src="img/voor-2.jpg" alt="Voor: blond met gele ondertoon" loading="lazy"></div>
+            <div class="ph ba-img" data-file="na-2.webp"><img src="img/na-2.webp" srcset="img/na-2-600.webp 600w, img/na-2.webp 1100w" sizes="(max-width:760px) 100vw, 45vw" width="1100" height="1654" alt="Na: zachte bronde" loading="lazy"></div>
+            <div class="ph ba-img ba-before" data-file="voor-2.webp"><img src="img/voor-2.webp" srcset="img/voor-2-600.webp 600w, img/voor-2.webp 1100w" sizes="(max-width:760px) 100vw, 45vw" width="1100" height="1654" alt="Voor: blond met gele ondertoon" loading="lazy"></div>
             <span class="ba-tag ba-tag-l">Voor</span><span class="ba-tag ba-tag-r">Na</span>
             <span class="ba-line" aria-hidden="true"></span>
           </div>
@@ -149,14 +158,14 @@
         </div>
       </div>
       <div class="work-grid">
-        <figure class="ph w-tall" data-cat="kleur" data-file="kleur-1.jpg"><img src="img/kleur-1.jpg" alt="Bronde met warme toner" loading="lazy"><figcaption>Bronde</figcaption></figure>
-        <figure class="ph" data-cat="snit" data-file="snit-1.jpg"><img src="img/snit-1.jpg" alt="Wolfcut met veel lagen" loading="lazy"><figcaption>Wolfcut</figcaption></figure>
-        <figure class="ph" data-cat="kleur" data-file="kleur-2.jpg"><img src="img/kleur-2.jpg" alt="Meches met diepte" loading="lazy"><figcaption>Meches</figcaption></figure>
-        <figure class="ph w-wide" data-cat="snit" data-file="snit-2.jpg"><img src="img/snit-2.jpg" alt="Lang gelaagd haar" loading="lazy"><figcaption>Lange layers</figcaption></figure>
-        <figure class="ph" data-cat="snit" data-file="snit-3.jpg"><img src="img/snit-3.jpg" alt="Pony of bangs" loading="lazy"><figcaption>Bangs</figcaption></figure>
-        <figure class="ph w-tall" data-cat="kleur" data-file="kleur-3.jpg"><img src="img/kleur-3.jpg" alt="Toner opgefrist voor glans" loading="lazy"><figcaption>Toner</figcaption></figure>
-        <figure class="ph" data-cat="kleur" data-file="kleur-4.jpg"><img src="img/kleur-4.jpg" alt="Natuurlijke highlights" loading="lazy"><figcaption>Highlights</figcaption></figure>
-        <figure class="ph w-wide" data-cat="snit" data-file="snit-4.jpg"><img src="img/snit-4.jpg" alt="Perfect gelaagde snit" loading="lazy"><figcaption>Gelaagde snit</figcaption></figure>
+        <figure class="ph w-tall" data-cat="kleur" data-file="kleur-1.webp"><img src="img/kleur-1.webp" srcset="img/kleur-1-600.webp 600w, img/kleur-1.webp 1100w" sizes="(max-width:760px) 100vw, 45vw" width="1100" height="1654" alt="Bronde met warme toner" loading="lazy"><figcaption>Bronde</figcaption></figure>
+        <figure class="ph" data-cat="snit" data-file="snit-1.webp"><img src="img/snit-1.webp" srcset="img/snit-1-600.webp 600w, img/snit-1.webp 1100w" sizes="(max-width:760px) 100vw, 45vw" width="1100" height="734" alt="Wolfcut met veel lagen" loading="lazy"><figcaption>Wolfcut</figcaption></figure>
+        <figure class="ph" data-cat="kleur" data-file="kleur-2.webp"><img src="img/kleur-2.webp" srcset="img/kleur-2-600.webp 600w, img/kleur-2.webp 1100w" sizes="(max-width:760px) 100vw, 45vw" width="1100" height="1650" alt="Meches met diepte" loading="lazy"><figcaption>Meches</figcaption></figure>
+        <figure class="ph w-wide" data-cat="snit" data-file="snit-2.webp"><img src="img/snit-2.webp" srcset="img/snit-2-600.webp 600w, img/snit-2.webp 1100w" sizes="(max-width:760px) 100vw, 45vw" width="1100" height="1650" alt="Lang gelaagd haar" loading="lazy"><figcaption>Lange layers</figcaption></figure>
+        <figure class="ph" data-cat="snit" data-file="snit-3.webp"><img src="img/snit-3.webp" srcset="img/snit-3-600.webp 600w, img/snit-3.webp 1100w" sizes="(max-width:760px) 100vw, 45vw" width="1100" height="734" alt="Pony of bangs" loading="lazy"><figcaption>Bangs</figcaption></figure>
+        <figure class="ph w-tall" data-cat="kleur" data-file="kleur-3.webp"><img src="img/kleur-3.webp" srcset="img/kleur-3-600.webp 600w, img/kleur-3.webp 1100w" sizes="(max-width:760px) 100vw, 45vw" width="1100" height="1650" alt="Toner opgefrist voor glans" loading="lazy"><figcaption>Toner</figcaption></figure>
+        <figure class="ph" data-cat="kleur" data-file="kleur-4.webp"><img src="img/kleur-4.webp" srcset="img/kleur-4-600.webp 600w, img/kleur-4.webp 1100w" sizes="(max-width:760px) 100vw, 45vw" width="1100" height="733" alt="Natuurlijke highlights" loading="lazy"><figcaption>Highlights</figcaption></figure>
+        <figure class="ph w-wide" data-cat="snit" data-file="snit-4.webp"><img src="img/snit-4.webp" srcset="img/snit-4-600.webp 600w, img/snit-4.webp 1100w" sizes="(max-width:760px) 100vw, 45vw" width="1100" height="1100" alt="Perfect gelaagde snit" loading="lazy"><figcaption>Gelaagde snit</figcaption></figure>
       </div>
       <p class="work-more">Meer werk op <a href="https://www.facebook.com/PureLeuven/" target="_blank" rel="noopener">Facebook</a> onder <span class="tag">#purehairlovers</span></p>
     </div>
@@ -174,28 +183,29 @@
         <div class="menu-group">
           <h3>Snit</h3>
           <ul>
-            <li><span class="m-name">Knippen dames</span><span class="m-desc">Wassen, knippen en brushen</span><span class="m-price">[prijs]</span></li>
-            <li><span class="m-name">Knippen heren</span><span class="m-desc">Snit met afwerking</span><span class="m-price">[prijs]</span></li>
-            <li><span class="m-name">Gelaagde snit &amp; wolfcut</span><span class="m-desc">Beweging en volume met lagen</span><span class="m-price">[prijs]</span></li>
-            <li><span class="m-name">Pony &amp; bangs</span><span class="m-desc">Nieuw zetten of bijwerken</span><span class="m-price">[prijs]</span></li>
+            <li><span class="m-name">Knippen dames</span><span class="m-desc">Wassen, knippen en brushen</span></li>
+            <li><span class="m-name">Knippen heren</span><span class="m-desc">Snit met afwerking</span></li>
+            <li><span class="m-name">Gelaagde snit &amp; wolfcut</span><span class="m-desc">Beweging en volume met lagen</span></li>
+            <li><span class="m-name">Pony &amp; bangs</span><span class="m-desc">Nieuw zetten of bijwerken</span></li>
           </ul>
         </div>
         <div class="menu-group">
           <h3>Kleur</h3>
           <ul>
-            <li><span class="m-name">Kleuring</span><span class="m-desc">Uitgroei of volledige kleur</span><span class="m-price">[prijs]</span></li>
-            <li><span class="m-name">Meches &amp; balayage</span><span class="m-desc">Licht en diepte op maat</span><span class="m-price">[prijs]</span></li>
-            <li><span class="m-name">Bronde</span><span class="m-desc">Zachte mix van blond en bruin</span><span class="m-price">[prijs]</span></li>
-            <li><span class="m-name">Toner</span><span class="m-desc">Kleur opfrissen, extra glans</span><span class="m-price">[prijs]</span></li>
+            <li><span class="m-name">Kleuring</span><span class="m-desc">Uitgroei of volledige kleur</span></li>
+            <li><span class="m-name">Meches &amp; balayage</span><span class="m-desc">Licht en diepte op maat</span></li>
+            <li><span class="m-name">Bronde</span><span class="m-desc">Zachte mix van blond en bruin</span></li>
+            <li><span class="m-name">Toner</span><span class="m-desc">Kleur opfrissen, extra glans</span></li>
           </ul>
         </div>
         <div class="menu-group">
           <h3>Verzorging</h3>
           <ul>
-            <li><span class="m-name">Vitalising Scalp</span><span class="m-desc">Verzorgende hoofdhuidbehandeling</span><span class="m-price">[prijs]</span></li>
-            <li><span class="m-name">Advies</span><span class="m-desc">Weet je niet welke richting? We denken mee</span><span class="m-price">gratis bij je afspraak [te bevestigen]</span></li>
+            <li><span class="m-name">Glow Up treatment</span><span class="m-desc">Extra verzorging voor je haar én je hoofdhuid, met een deugddoende massage</span></li>
+            <li><span class="m-name">Advies</span><span class="m-desc">Weet je niet welke richting? We denken mee</span></li>
           </ul>
         </div>
+        <p class="note menu-note">Prijzen en vrije momenten zie je meteen wanneer je online boekt.</p>
         <a class="btn btn-dark menu-cta" href="https://client.optios.net/online_booking.html?%2F5341%2Fnl" target="_blank" rel="noopener">Kies je behandeling en boek</a>
       </div>
     </div>
@@ -204,12 +214,12 @@
   <!-- HOOFDHUID -->
   <section class="section scalp" aria-labelledby="s-title">
     <div class="wrap scalp-inner">
-      <figure class="ph scalp-img" data-file="scalp.jpg"><img src="img/scalp.jpg" alt="Hoofdhuidbehandeling in het salon" loading="lazy"></figure>
+      <figure class="ph scalp-img" data-file="scalp.webp"><img src="img/scalp.webp" srcset="img/scalp-600.webp 600w, img/scalp.webp 1100w" sizes="(max-width:760px) 100vw, 45vw" width="1100" height="733" alt="Hoofdhuidbehandeling in het salon" loading="lazy"></figure>
       <div class="scalp-text">
         <p class="label">Hoofdhuid</p>
         <h2 id="s-title">Mooi haar begint <em>bij de basis</em></h2>
-        <p>Glanzend haar groeit uit een verzorgde hoofdhuid. Met de Vitalising Scalp-behandeling geven we je hoofdhuid aandacht, rustig en grondig, voor of na je snit of kleuring.</p>
-        <p>Ideaal om te combineren met een toner of een nieuwe kleur. Vraag ernaar bij je volgende afspraak.</p>
+        <p>Glanzend haar groeit uit een verzorgde hoofdhuid. Geef je kappersbeurt extra meerwaarde met een Glow Up treatment: een verzorging voor de kwaliteit van je haar én je hoofdhuid, telkens met een deugddoende massage.</p>
+        <p>Je kiest zelf of je met of zonder Glow Up boekt. Twijfel je? Bel gerust, dan denken we mee.</p>
       </div>
     </div>
   </section>
@@ -226,9 +236,8 @@
           <li>Julien</li>
           <li>Betty</li>
         </ul>
-        <p class="note">Teamnamen te bevestigen door het salon.</p>
       </div>
-      <figure class="ph team-img" data-file="team.jpg"><img src="img/team.jpg" alt="Het team van Pure aan het werk" loading="lazy"></figure>
+      <figure class="ph team-img" data-file="team.webp"><img src="img/team.webp" srcset="img/team-600.webp 600w, img/team.webp 1100w" sizes="(max-width:760px) 100vw, 45vw" width="1100" height="734" alt="Het team van Pure aan het werk" loading="lazy"></figure>
     </div>
   </section>
 
@@ -249,17 +258,13 @@
           <span class="score-txt">aanbevolen op Facebook<br>51 beoordelingen</span>
         </a>
       </div>
-      <div class="quotes">
-        <blockquote><p>[Reviewcitaat met toestemming van de klant]</p><cite>[Naam]</cite></blockquote>
-        <blockquote><p>[Reviewcitaat met toestemming van de klant]</p><cite>[Naam]</cite></blockquote>
-      </div>
     </div>
   </section>
 
   <!-- CONTACT -->
   <section class="section contact" id="contact" aria-labelledby="c-title">
     <div class="wrap">
-      <figure class="ph contact-photo" data-file="salon-interieur.jpg"><img src="img/salon-interieur.jpg" alt="Een licht salon met kappersstoelen en spiegels" loading="lazy"></figure>
+      <figure class="ph contact-photo" data-file="salon-interieur.webp"><img src="img/salon-interieur.webp" srcset="img/salon-interieur-600.webp 600w, img/salon-interieur.webp 1100w" sizes="(max-width:760px) 100vw, 45vw" width="1100" height="734" alt="Een licht salon met kappersstoelen en spiegels" loading="lazy"></figure>
     </div>
     <div class="wrap contact-inner">
       <div>

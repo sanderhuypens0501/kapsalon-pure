@@ -1,3 +1,6 @@
+@font-face{font-family:"Bodoni Moda";src:url(fonts/bodoni-moda-normal.woff2) format("woff2");font-weight:400 500;font-style:normal;font-display:swap}
+@font-face{font-family:"Bodoni Moda";src:url(fonts/bodoni-moda-italic.woff2) format("woff2");font-weight:400 500;font-style:italic;font-display:swap}
+@font-face{font-family:"Hanken Grotesk";src:url(fonts/hanken-grotesk-normal.woff2) format("woff2");font-weight:400 600;font-style:normal;font-display:swap}
 /* Pure: salonjournaal. Redactioneel en foto-gedreven, koel gebroken wit, espresso-inkt en één toner-violetgrijs accent. Rechte hoeken, fijne lijnen, geen kaartjes. */
 :root {
   --paper: #f3f3f1;
@@ -256,3 +259,5 @@ section[id], main [id] { scroll-margin-top: 80px; }
 @media (max-width: 700px) { .contact-photo { aspect-ratio: 4 / 3; } }
 .demo-note { margin-top: 2rem; }
 .giant { font-family: var(--serif); font-style: italic; font-size: clamp(7rem, 36vw, 30rem); line-height: .78; letter-spacing: -0.04em; color: var(--toner-light); text-align: center; overflow: hidden; height: .62em; margin-top: 2rem; user-select: none; }
+
+.menu-note { margin-top: -1.2rem; }
